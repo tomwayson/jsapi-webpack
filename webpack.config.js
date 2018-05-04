@@ -23,7 +23,8 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            cacheDirectory: true
+            cacheDirectory: true,
+            plugins: ["syntax-dynamic-import"]
           }
         }
       },
